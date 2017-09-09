@@ -1,0 +1,24 @@
+<!-- <div layout="row" layout-xs="column" flex>
+	<md-nav-bar md-selected-nav-item="c.selectedNav" nav-bar-aria-label="navigation links" flex="85" flex-xs="100">
+      <md-nav-item md-nav-sref="home" name="home">
+        Home
+      </md-nav-item>
+      <md-nav-item md-nav-sref="about" name="about">
+        About
+      </md-nav-item>
+      <md-nav-item md-nav-sref="contact" name="contact">
+        Contact
+      </md-nav-item>
+	</md-nav-bar>
+	<md-input-container flex="15" flex-xs="30">
+          <md-select ng-model="c.selectedLang">
+            <md-option ng-repeat="lang in c.languages" ng-value="lang"><em class="appColor">{{lang}}</em></md-option>
+          </md-select>
+    </md-input-container>
+</div> -->
+
+<div class="appBGColor" layout="row" layout-align="center center">
+	<a class="navItem navBarColor" ui-sref-active="activeStep" ui-sref=".home"><h2>Home</h2></a>
+	<a class="navItem navBarColor" ui-sref-active="activeStep" ui-sref=".about"><h2>About</h2></a>
+	<a class="navItem navBarColor" ui-sref-active="activeStep" ui-sref=".contact"><h2>Contact</h2></a>
+</div>

@@ -1,0 +1,33 @@
+/* .md-nav-bar{
+	border: none;
+}
+.md-button.md-accent {
+  color: #3F51B5;
+}
+
+md-nav-bar md-nav-ink-bar {
+  background-color: #3F51B5;
+}  */
+
+.navBarColor{
+	/* color: #673AB7; */
+	color: #FFFFFF;
+}
+
+.navItem{
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.navItem h2{
+font-weight: 100;
+}
+
+.activeStep {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.activeStep h2{
+	font-weight: bold;
+}

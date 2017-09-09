@@ -1,0 +1,78 @@
+@font-face {
+        font-family: Annie Use Your Telescope;
+        src: url(../../bower_components/annieuseyourtelescope-googlefont/AnnieUseYourTelescope.ttf);
+}
+
+.myFont {
+    font-family: 'Annie Use Your Telescope';
+    font-size: 22px;
+}
+
+.content{
+/* 	background-image: url('../image/skillsBackground.png');
+	background-repeat: no-repeat;   */
+}
+
+.appContent{
+	background-color: #E8EAF6;
+}
+
+.appColor {
+	color: #3f51b5;
+}
+
+.appColor2{
+	color: #FFA726;
+}
+
+.appBGColor{
+	background-color: #3f51b5;
+}
+
+.appFontBigTitles{
+	font-size: 4em;
+	letter-spacing: 5px;
+}
+
+.appFontSmallTitles{
+	font-size: 2em;
+}
+
+.appFontWeight{
+	font-weight: 600;
+}
+
+.text-center{
+	text-align: center;
+}
+
+md-whiteframe {
+	background-color: #E3F2FD;
+}
+
+.bird{
+	position: absolute;
+    top: 125px;
+    left: 20px;
+    z-index: 9999;
+}
+
+.linkedinIcon{
+	color: #0084bf;
+}
+
+.facebookIcon{
+	color: #3b5998;
+}
+
+.twitterIcon{
+	color: #00aced;
+}
+
+
+
+@media screen and (max-device-width: 750px) {
+  	.appFontBigTitles{font-size: 2em;letter-spacing: normal;}
+	.appFontSmallTitles{font-size: 1em;}
+
+}
